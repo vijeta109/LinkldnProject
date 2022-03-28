@@ -1,0 +1,22 @@
+use admin
+db.createUser(
+  {
+    user: "Vijeta109",
+    pwd: "Vijeta123",
+    roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
+  }
+)
+
+
+
+
+mongo --port 27017 -u "Vijeta109" -p "Vijeta123" \
+  --authenticationDatabase "admin"
+
+
+
+
+  Connection string
+
+
+  mongodb://Vijeta109:Vijeta123@localhost:27017

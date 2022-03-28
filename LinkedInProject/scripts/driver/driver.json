@@ -1,0 +1,11 @@
+{
+   "database":{
+        "host":"localhost",
+        "user":"Vijeta109",
+        "password":"Vijeta123",
+	    "port":"27017",
+        "db":"mongodb"
+    },
+  "execution_type": "parallel",
+  "log_file":"/Users/vijetavamannayak/LinkedInProject/logs/etlprocess_{datetime}.log"
+  }

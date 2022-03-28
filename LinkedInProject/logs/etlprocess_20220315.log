@@ -1,0 +1,70 @@
+03/15/2022 12:01:15 AM INFO :{'database': {'host': 'localhost', 'user': 'Vijeta109', 'password': 'Vijeta123', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': '/Users/vijetavamannayak/LinkedInProject/logs/etlprocess_20220315.log', 'process_timestamp': '20220315000115', 'config_file': '/Users/vijetavamannayak/LinkedInProject/scripts/driver/driver.json'}
+03/15/2022 12:01:15 AM INFO :Creating Database connection
+03/15/2022 12:01:15 AM INFO :Connection Successful
+03/15/2022 12:01:16 AM INFO :The data is inserted into the database
+03/15/2022 12:01:16 AM INFO :Creating Database connection for master
+03/15/2022 12:01:31 AM INFO :Connection Successful
+03/15/2022 12:01:34 AM INFO :The data is inserted into the database
+03/15/2022 12:01:34 AM INFO :Creating Database connection for master
+03/15/2022 12:01:37 AM INFO :Connection Successful
+03/15/2022 12:01:45 AM INFO :The data is inserted into the database
+03/15/2022 12:03:16 AM INFO :{'database': {'host': 'localhost', 'user': 'Vijeta109', 'password': 'Vijeta123', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': '/Users/vijetavamannayak/LinkedInProject/logs/etlprocess_20220315.log', 'process_timestamp': '20220315000316', 'config_file': '/Users/vijetavamannayak/LinkedInProject/scripts/driver/driver.json'}
+03/15/2022 12:03:16 AM INFO :Creating Database connection
+03/15/2022 12:03:16 AM INFO :Connection Successful
+03/15/2022 12:03:17 AM INFO :The data is inserted into the database
+03/15/2022 12:03:17 AM INFO :Creating Database connection for master
+03/15/2022 12:03:34 AM INFO :Connection Successful
+03/15/2022 12:03:38 AM INFO :The data is inserted into the database
+03/15/2022 12:03:38 AM INFO :Creating Database connection for master
+03/15/2022 12:03:41 AM INFO :Connection Successful
+03/15/2022 12:03:49 AM INFO :The data is inserted into the database
+03/15/2022 02:55:28 PM INFO :{'database': {'host': 'localhost', 'user': 'Vijeta109', 'password': 'Vijeta123', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': '/Users/vijetavamannayak/LinkedInProject/logs/etlprocess_20220315.log', 'process_timestamp': '20220315145528', 'config_file': '/Users/vijetavamannayak/LinkedInProject/scripts/driver/driver.json'}
+03/15/2022 02:55:28 PM INFO :Creating Database connection
+03/15/2022 02:55:28 PM INFO :Connection Successful
+03/15/2022 02:55:28 PM INFO :The data is inserted into the database
+03/15/2022 02:55:28 PM INFO :Creating Database connection for master
+03/15/2022 02:55:44 PM INFO :Connection Successful
+03/15/2022 02:55:49 PM INFO :The data is inserted into the database
+03/15/2022 02:55:49 PM INFO :Creating Database connection for master
+03/15/2022 02:55:52 PM INFO :Connection Successful
+03/15/2022 02:56:00 PM INFO :The data is inserted into the database
+03/15/2022 03:02:32 PM INFO :{'database': {'host': 'localhost', 'user': 'Vijeta109', 'password': 'Vijeta123', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': '/Users/vijetavamannayak/LinkedInProject/logs/etlprocess_20220315.log', 'process_timestamp': '20220315150232', 'config_file': '/Users/vijetavamannayak/LinkedInProject/scripts/driver/driver.json'}
+03/15/2022 03:02:32 PM INFO :Creating Database connection
+03/15/2022 03:02:32 PM INFO :Connection Successful
+03/15/2022 03:02:32 PM INFO :The data is inserted into the database
+03/15/2022 03:02:32 PM INFO :Creating Database connection for master
+03/15/2022 03:02:51 PM INFO :Connection Successful
+03/15/2022 03:02:54 PM INFO :The data is inserted into the database
+03/15/2022 03:02:54 PM INFO :Creating Database connection for master
+03/15/2022 03:02:57 PM INFO :Connection Successful
+03/15/2022 03:03:04 PM INFO :The data is inserted into the database
+03/15/2022 03:04:55 PM INFO :{'database': {'host': 'localhost', 'user': 'Vijeta109', 'password': 'Vijeta123', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': '/Users/vijetavamannayak/LinkedInProject/logs/etlprocess_20220315.log', 'process_timestamp': '20220315150455', 'config_file': '/Users/vijetavamannayak/LinkedInProject/scripts/driver/driver.json'}
+03/15/2022 03:04:55 PM INFO :Creating Database connection
+03/15/2022 03:04:55 PM INFO :Connection Successful
+03/15/2022 03:04:55 PM INFO :The data is inserted into the database
+03/15/2022 03:04:55 PM INFO :Creating Database connection for master
+03/15/2022 03:05:11 PM INFO :Connection Successful
+03/15/2022 03:05:14 PM INFO :The data is inserted into the database
+03/15/2022 03:05:14 PM INFO :Creating Database connection for master
+03/15/2022 03:05:16 PM INFO :Connection Successful
+03/15/2022 03:05:24 PM INFO :The data is inserted into the database
+03/15/2022 03:06:16 PM INFO :{'database': {'host': 'localhost', 'user': 'Vijeta109', 'password': 'Vijeta123', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': '/Users/vijetavamannayak/LinkedInProject/logs/etlprocess_20220315.log', 'process_timestamp': '20220315150616', 'config_file': '/Users/vijetavamannayak/LinkedInProject/scripts/driver/driver.json'}
+03/15/2022 03:06:16 PM INFO :Creating Database connection
+03/15/2022 03:06:16 PM INFO :Connection Successful
+03/15/2022 03:06:16 PM INFO :The data is inserted into the database
+03/15/2022 03:06:16 PM INFO :Creating Database connection for master
+03/15/2022 03:06:30 PM INFO :Connection Successful
+03/15/2022 03:06:34 PM INFO :The data is inserted into the database
+03/15/2022 03:06:34 PM INFO :Creating Database connection for master
+03/15/2022 03:06:36 PM INFO :Connection Successful
+03/15/2022 03:06:43 PM INFO :The data is inserted into the database
+03/15/2022 03:08:25 PM INFO :{'database': {'host': 'localhost', 'user': 'Vijeta109', 'password': 'Vijeta123', 'port': '27017', 'db': 'mongodb'}, 'execution_type': 'parallel', 'log_file': '/Users/vijetavamannayak/LinkedInProject/logs/etlprocess_20220315.log', 'process_timestamp': '20220315150825', 'config_file': '/Users/vijetavamannayak/LinkedInProject/scripts/driver/driver.json'}
+03/15/2022 03:08:25 PM INFO :Creating Database connection
+03/15/2022 03:08:25 PM INFO :Connection Successful
+03/15/2022 03:08:25 PM INFO :The data is inserted into the database
+03/15/2022 03:08:25 PM INFO :Creating Database connection for master
+03/15/2022 03:08:40 PM INFO :Connection Successful
+03/15/2022 03:08:43 PM INFO :The data is inserted into the database
+03/15/2022 03:08:43 PM INFO :Creating Database connection for master
+03/15/2022 03:08:45 PM INFO :Connection Successful
+03/15/2022 03:08:52 PM INFO :The data is inserted into the database
