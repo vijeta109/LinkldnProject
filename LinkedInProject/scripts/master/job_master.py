@@ -60,6 +60,14 @@ def job_master_data(cfg):
   df=df.withColumn("current_date", f.current_date())
   df=df.withColumn("job_total_days", datediff(f.current_date(), col("job_date_posted")))
   df = df.withColumn('job_active_flag', when(col('job_total_days') >= 90, 'N').otherwise('Y'))
+  df=df.groupBy('job_id').count().select('job_id', f.col('count').alias('count_records'))
+  df = df.withColumn('job_transaction_type', when(col('count_records') == 1, 'I').otherwise('U'))
+  df_insert = df.filter(df.job_transaction_type == "I")
+  df_update = df.filter(df.job_transaction_type == "U")
+  df_insert=df_insert.drop(df_insert.job_transaction_type)
+  df_insert=df_insert.drop(df_insert.count_records)
+  df_update=df_insert.drop(df_update.job_transaction_type)
+  df_update=df_insert.drop(df_update.count_records)
   print(df.head(100))
   db_connection = get_db_connection(cfg)
   dblist = db_connection.list_database_names()
@@ -68,7 +76,7 @@ def job_master_data(cfg):
     db_cm = mydb["job_master"]
   # data_json = json.loads(df.toJSON().collect())
 
-  results = df.toJSON().map(lambda j: json.loads(j)).collect()
+  results = df_insert.toJSON().map(lambda j: json.loads(j)).collect()
   print(results)
   db_cm.insert_many(results)
   sc.stop()
